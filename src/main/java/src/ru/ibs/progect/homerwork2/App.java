@@ -1,3 +1,4 @@
+//работу выполнил Пастухов Матвей г.Нижний Новгород
 package src.ru.ibs.progect.homerwork2;
 
 import java.util.Scanner;
