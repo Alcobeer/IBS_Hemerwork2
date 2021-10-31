@@ -16,6 +16,7 @@
     <properties>
         <mockito.version>2.26.0</mockito.version>
         <junit.version>5.5.2</junit.version>
+        <apache.common.version>3.11</apache.common.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourseEncoding>UTF-8</project.build.sourseEncoding>
@@ -34,6 +35,16 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${apache.common.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
         </dependency>
     </dependencies>
 
