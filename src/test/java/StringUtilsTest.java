@@ -15,6 +15,7 @@ public class StringUtilsTest {
         stringUtils=new StringUtils();
 
     }
+    // тест на работу алгоритма
     @Test
     public void testGetFileInfoOutMok(){
         try{
@@ -28,6 +29,7 @@ public class StringUtilsTest {
 
 
     }
+    // тест на соответствие файла условиям 1
     @Test
     public void testFileValid(){
         try {
